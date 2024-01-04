@@ -168,6 +168,12 @@ img {
 .page-title {
   color: #ffffff;
   background-color: #2e2f42;
+  border-image: linear-gradient(
+      to bottom,
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(/images/people-office1.jpg);
   font-weight: 700;
   font-size: 56px;
   width: 1440px;
