@@ -1,0 +1,383 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding-left: 0;
+  list-style-type: none;
+}
+
+body {
+  font-size: 56px;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.07;
+  letter-spacing: 1.12px;
+  color: #434455;
+  font-weight: 400;
+  background-color: #ffffff;
+}
+
+section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.container {
+  max-width: 1158px;
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 156px;
+  margin-right: 156px;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+.heading-second {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
+.heading-third {
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+}
+
+.paragraf {
+  color: #434455;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
+/* .............page header................ */
+
+.page-header {
+  background-color: #ffffff;
+  font-size: 56px;
+  width: 1440px;
+  text-align: center;
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.page-header .container {
+  display: flex;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+.page-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.page-nav .list {
+  display: flex;
+  gap: 40px;
+  padding-bottom: 24px;
+}
+
+.page-nav .link {
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  color: #2e2f42;
+  padding: 24px 0;
+}
+
+.page-nav .link:hover,
+.page-nav .link:focus {
+  color: #404bbf;
+}
+
+.logo {
+  color: #4d5ae5;
+  text-transform: uppercase;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+  margin-right: 76px;
+  display: flex;
+}
+
+.studio-logo {
+  color: #2e2f42;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+
+.page-address .list {
+  font-style: normal;
+  display: flex;
+  gap: 40px;
+  margin-left: 332px;
+}
+.page-address .link {
+  color: #434455;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  text-decoration: none;
+  font-style: normal;
+  margin: 0 auto;
+}
+
+.page-address .link:hover,
+.page-address .link:focus {
+  color: #404bbf;
+}
+
+/* ..................................... */
+
+/* .............page title................ */
+
+.page-title {
+  color: #ffffff;
+  background-color: #2e2f42;
+  font-weight: 700;
+  font-size: 56px;
+  width: 1440px;
+  padding: 188px 0;
+}
+
+.page-title .container {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 496px;
+}
+
+.heading-first {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 56px;
+  text-align: center;
+  max-width: 496px;
+  height: 120px;
+}
+
+.page-button {
+  color: #ffffff;
+  background-color: #4d5ae5;
+  border: none;
+  border-radius: 4px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+  cursor: pointer;
+  margin-left: 160px;
+  margin-right: 160px;
+  min-width: 169px;
+  height: 56px;
+  padding: 16px 32px;
+  margin-top: 48px;
+  display: block;
+}
+
+.page-button:hover,
+.page-button:focus {
+  background-color: #404bbf;
+}
+
+/* ..................................... */
+
+/* .............section features................ */
+
+.section-features {
+  width: 1440px;
+}
+
+.section-features .visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.section-features .list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 24px;
+  text-align: left;
+}
+
+.section-features .list-item {
+  width: calc((100% - 3 * 24px) / 4);
+}
+
+.section-features .heading-third {
+  margin-bottom: 8px;
+}
+
+.section-features .paragraf {
+  text-align: left;
+  width: 264px;
+  height: 72px;
+  padding-bottom: 0;
+}
+/* ..................................... */
+
+/* .............section team................ */
+
+.section-team {
+  background-color: #f4f4fd;
+  width: 1440px;
+  text-align: center;
+}
+
+.section-team .heading-second {
+  margin-bottom: 72px;
+  height: 40px;
+  text-align: center;
+}
+
+.section-team .list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 24px;
+}
+
+.team-list {
+  background-color: #ffffff;
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.container-team-content {
+  padding: 32px 0;
+}
+
+.container-team-content .heading-third {
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.container-team-content .paragraf {
+  text-align: center;
+}
+
+/* ..................................... */
+
+/* .............section portfolio................ */
+
+.section-portfolio {
+  background-color: #ffffff;
+  padding-top: 0;
+  padding-bottom: 120px;
+  padding-top: 120px;
+  width: 1440px;
+}
+
+.section-portfolio .heading-second {
+  margin-bottom: 72px;
+  text-align: center;
+  border-top: none;
+}
+
+.section-portfolio .portfolio-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 48px 24px;
+}
+
+.section-portfolio .list-img {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  background-color: #ffffff;
+  height: 420px;
+  width: calc((100% - 48px) / 3);
+}
+
+.section-portfolio .container-portfolio-content {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
+
+.section-portfolio .heading-third {
+  margin-bottom: 8px;
+}
+
+/* ..................................... */
+
+/* .............page footer................ */
+
+.page-footer {
+  background-color: #2e2f42;
+  width: 1440px;
+  padding: 100px 0;
+}
+
+.page-footer .container {
+  text-align: left;
+  font-size: 0;
+}
+
+.page-footer .logo {
+  color: #4d5ae5;
+  text-align: left;
+  display: inline-block;
+  margin-bottom: 16px;
+  width: 115px;
+  height: 21px;
+}
+
+.page-footer .studio-logo {
+  color: #f4f4fd;
+  text-align: left;
+}
+
+.page-footer .paragraf {
+  color: #f4f4fd;
+  text-align: left;
+  width: 264px;
+  height: 72px;
+}
+
+/* ..................................... */
