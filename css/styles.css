@@ -358,6 +358,7 @@ img {
   background-color: #2e2f42;
   width: 1440px;
   padding: 100px 0;
+  display: flex;
 }
 
 .page-footer .container {
@@ -386,10 +387,46 @@ img {
   height: 72px;
 }
 
+.page-footer .container-soc {
+  width: 208px;
+  height: 40px;
+}
+
+.page-footer .paragraf-soc {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  width: 96px;
+  height: 24px;
+  margin-bottom: 16px;
+}
+
+.footer-soc-list {
+  display: flex;
+  gap: 16px;
+  width: 208px;
+  text-align: center;
+}
+
+.footer-soc-list:not(:last-child)::after {
+  /* content: '';
+  gap: 16px; */
+}
+
+.footer-soc-item {
+  text-align: center;
+}
+
 .footer-soc-link {
-  fill: white;
+}
+
+.footer-soc-icon {
+  fill: none;
   border-radius: 40px;
-  border: 1px solid #4d5ae5;
+  border: none;
+  background-color: #4d5ae5;
+  flex-shrink: 0;
 }
 
 /* ..................................... */
