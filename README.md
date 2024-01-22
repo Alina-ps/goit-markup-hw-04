@@ -1,4 +1,4 @@
-# goit-markup-hw-01
+<!-- # goit-markup-hw-01 -->
 
   <!-- також можно включити форматування через ctrl+shift+p -> format document -> prettier -->
   <!-- to navigae fast between recent folders/workspaces just click shortcut ctrl+/ -->
@@ -15,7 +15,7 @@
 <!-- text-decoration: none | underline | line-through | overline -->
 <!-- list-style-type: none; to remove bullets in ul in css -->
 
-# goit-markup-hw-03
+<!-- # goit-markup-hw-03
 
 1. box-sizing: content-box border-box inherit
 2. box-sizing: border-box
@@ -48,4 +48,4 @@
     max-width. Example .page-title .container { display: block; margin-right:
     auto; margin-left: auto; max-width: 496px; }
 23. when child is inline-block, which adds margin, and you need to get rid of
-    it, set for parent font-size 0
+    it, set for parent font-size 0 -->
